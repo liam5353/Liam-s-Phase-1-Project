@@ -1,0 +1,58 @@
+{
+    "todos": [
+      {
+        "id": 1,
+        "title": "Dust Fans",
+        "category": "Household",
+        "notes": "Use blade cleaner to catch all the dust. Wear PPE to protect face and nose."
+      },
+      {
+        "id": 2,
+        "title": "Organize Garage",
+        "category": "Garage",
+        "notes": "Use plastic bins and label each one! They can stack on shelf or in the attic"
+      },
+      {
+        "id": 3,
+        "title": "Paint Deck",
+        "category": "Outside",
+        "notes": "Use Sherman Williams Deck Wash to prep and Charwood color Top Deck Stain."
+      },
+      {
+        "id": 4,
+        "title": "Detail SUV",
+        "category": "Garage",
+        "notes": "Use Turtlewax, and don't forget to to the rims. Also, don'r forget to vacuum the trunk."
+      },
+      {
+        "id": 5,
+        "title": "Organize Plants",
+        "category": "Outside",
+        "notes": "Re-pot and throw away any dead plants! Also, put empty pots into shed."
+      },
+      {
+        "id": 6,
+        "title": "Paint Bathroom",
+        "category": "Household",
+        "notes": "Make sure to clean the walls first and tape off the corners and lay down plastic."
+      },
+      {
+        "id": 7,
+        "title": "Sweep Garage",
+        "category": "Garage",
+        "notes": "Make sure to sweep all corners! Use the leaf blower when done."
+      },
+      {
+        "id": 8,
+        "title": "Clean out Refrigerator",
+        "category": "Household",
+        "notes": "Throw away all old food. Take out all shelves and wash thoroughly."
+      },
+      {
+        "id": 9,
+        "title": "Clean out front and backyard",
+        "category": "Outside",
+        "notes": "Make sure to organize all dog toys. Also rake any leaves and fallen branches."
+      }
+    ]
+  }
