@@ -1,58 +1,67 @@
 {
     "todos": [
-      {
+        {
         "id": 1,
         "title": "Dust Fans",
         "category": "Household",
+        "imageURL": "https://i.ebayimg.com/images/g/DYIAAOSwj6JgwMUF/s-l500.jpg",
         "notes": "Use blade cleaner to catch all the dust. Wear PPE to protect face and nose."
-      },
-      {
+        },
+        {
         "id": 2,
         "title": "Organize Garage",
         "category": "Garage",
-        "notes": "Use plastic bins and label each one! They can stack on shelf or in the attic"
-      },
-      {
+        "imageURL": "https://cdn.vox-cdn.com/thumbor/R08XX2IDVMSUoSNmiWY0YcFsHaM=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19506398/clean_organized_garage.jpg",
+        "notes": "Use plastic bins and label each one! They can stack on shelf or in the attic."
+        },
+        {
         "id": 3,
         "title": "Paint Deck",
         "category": "Outside",
+        "imageURL": "https://www.truevalue.com/media/magefan_blog/staining-deck-extended-pad-840x560-75.jpg",
         "notes": "Use Sherman Williams Deck Wash to prep and Charwood color Top Deck Stain."
-      },
-      {
+        },
+        {
         "id": 4,
         "title": "Detail SUV",
         "category": "Garage",
+        "imageURL": "https://img.grouponcdn.com/bynder/38Bh4C3zCRKvHqs8noJamvvJSQY6/38-2048x1229/v1/c870x524.jpg",
         "notes": "Use Turtlewax, and don't forget to to the rims. Also, don'r forget to vacuum the trunk."
-      },
-      {
+        },
+        {
         "id": 5,
         "title": "Organize Plants",
         "category": "Outside",
+        "imageURL": "https://media.architecturaldigest.com/photos/5dcde0245ff5e60008e76f52/master/w_1600,c_limit/Osofsky_Oct19-571.jpg",
         "notes": "Re-pot and throw away any dead plants! Also, put empty pots into shed."
-      },
-      {
+        },
+        {
         "id": 6,
         "title": "Paint Bathroom",
         "category": "Household",
+        "imageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bathroom-paint-colors-blue-1643225143.jpg?crop=0.9624282805848602xw:1xh;center,top&resize=480:*",
         "notes": "Make sure to clean the walls first and tape off the corners and lay down plastic."
-      },
-      {
+        },
+        {
         "id": 7,
         "title": "Sweep Garage",
         "category": "Garage",
+        "imageURL": "https://www.finehomebuilding.com/app/uploads/cms/uploadedimages/images/homebuilding/book_excerpts/sn103-02.jpg",
         "notes": "Make sure to sweep all corners! Use the leaf blower when done."
-      },
-      {
+        },
+        {
         "id": 8,
         "title": "Clean out Refrigerator",
         "category": "Household",
-        "notes": "Throw away all old food. Take out all shelves and wash thoroughly."
-      },
-      {
+        "imageURL": "https://krystalschlegel.com/wp-content/uploads/2019/10/how-to-organize-fridge.jpg",
+        "notes": "Throw away all old food. Take out all shelves and wash thoroughly. Use plastic bins from Amazon."
+        },
+        {
         "id": 9,
         "title": "Clean out front and backyard",
         "category": "Outside",
+        "imageURL": "https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/simple-steps-to-clean-up-your-backyard-step-1.jpg",
         "notes": "Make sure to organize all dog toys. Also rake any leaves and fallen branches."
-      }
+        }
     ]
-  }
+}
