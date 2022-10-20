@@ -8,3 +8,9 @@ Every year, I make a list of household cleaning that needs to be done. I wanted 
 * Fork and clone.
 * Run json-server from terminal "json-server --watch db.json".
 * Open index.html in the browser.# Liam-s-Phase-1-Project
+* I used a website called font-awesome for my css
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>

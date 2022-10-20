@@ -1,9 +1,11 @@
-fetch('http://localhost:3000/todos/')       // get request - need to so something with response
-.then(res => console.log(res))              // takes callback 
+let form = document.getElementById("form")                  // target form
 
-document.querySelector('form').addEventListener('mouseover', function(){    // event listener that takes a function
+form.addEventListener("submit", ()=>{                       // click event
+    console.log("button click")
+})                     
 
-})
+
+
 
 
 
