@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 25 px;
     cursor: pointer;
 }
@@ -18,3 +18,9 @@ body {
    align-items: center;
    justify-content: space-between;
 }
+
+body
+{
+    background-color: aliceblue;
+}
+
