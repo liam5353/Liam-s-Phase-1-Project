@@ -1,16 +1,10 @@
-# To-Do List
-Every year, I make a list of household cleaning that needs to be done. I wanted to use this for my project. I have heard the term "Honey-Do-List" as well. Currently in my life, I am working full-time as a teacher, aside from doing the Flex program for Software Engineering. My girlfriend and I are also expecting our first child together in December. So to say my time is limited is an understatement. So I came up with a list and put it into a json. I then wanted to make it have a click feature in order to delete items as they are completed. I also wanted to have a mouse-over to show some side notes.
+## To-Do List
+A few times every year, I make a list of household taks that needs to be done. I wanted to use this idea for my project. Currently in my life, I am working full-time as a teacher, aside from doing the Flatiron flex program for Software Engineering. My girlfriend and I are also expecting our first child together in December. So to say my time is limited is an understatement. So I came up with a list. Although it isn't perfect, I hope to add to it as I learn more and continue throughout the program. The three event listeners I have included are a submit button, where you can add an ID#, task title, category, notes, and a picture url. For the 2nd event listener, I added a click feature that zooms in on the picture when you click it, then when you mouseover to the side it goes back to normal. The 3rd event is in the text box where you add new todos. When you mouse over each box it will clear the headers for you to type. To delete newly added todos, you just refresh the page.
 
-### Requirements
-* Have json-server installed
+## Requirements
+* Have json-server installed.
 
-### Installation Instructions
+## Installation Instructions
 * Fork and clone.
 * Run json-server from terminal "json-server --watch db.json".
-* Open index.html in the browser.# Liam-s-Phase-1-Project
-* I used a website called font-awesome for my css
-
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-/>
+* Open index.html in the browser for "Liam-s-Phase-1-Project".
