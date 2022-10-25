@@ -1,9 +1,8 @@
-const right = document.getElementById("right")                         // setting a const element from DOM
-let todos = document.getElementById("todos");                          // gets todo div
-let TextBoxes = document.getElementsByTagName("input");                // textbox div
-todolist = []
-
-let ToDo =                                                             // creates object of todo
+const right = document.getElementById("right")               // setting a const element from DOM
+const left = document.getElementById("left")
+const todos = document.getElementById("todos");              // gets todo div
+const textBoxes = document.getElementsByTagName("input");    // textbox div
+const todo =                                                 // creates todo string
 {
     id: "",
     title:  "",
@@ -11,32 +10,32 @@ let ToDo =                                                             // create
     imageURL:"",
     notes:""
 }
+// todolist = []
 
 function renderTodos(todoList) {                                       // creates first set of todos
-       for(let i = 0; i < todoList.length; i++)                        // for loop for iterating through array
-    {
-        let str = "";                                                  // string for adding new todos for textbox   
-        str += "<br>ID: "+todoList[i].id+"<br><br>";
-        str += "\nTitle: "+todoList[i].title+"<br><br>";
-        str += "\nCategory: "+todoList[i].category+"<br><br>";
-        str += "\nNotes: "+todoList[i].notes+"<br><br>";
-        let img = document.createElement("img");                       // loads image
+    for (let i = 0; i < todoList.length; i++) {                        // empty string for adding new todos for textbox
+        let addTodo = "<br></br>";                                        
+        addTodo += "ID: "+todoList[i].id+"<br><br>";
+        addTodo += "Title: "+todoList[i].title+"<br><br>";
+        addTodo += "Category: "+todoList[i].category+"<br><br>";
+        addTodo += "Notes: "+todoList[i].notes+"<br><br>";
+        let img = document.createElement("img");                        // loads image
         img.src = todoList[i].imageURL;
         img.setAttribute("height","100px");
         img.setAttribute("width","100px");
         img.setAttribute("id","img")
-        todos.innerHTML += str+"<br><br><br>";
+        todos.innerHTML += addTodo+"<br><br><br>";
         todos.appendChild(img)
         document.getElementById("img").addEventListener("click",function() {            // 1st event listener "click"
             document.getElementById("img").setAttribute("height","500px");
             document.getElementById("img").setAttribute("width","500px");
-            document.getElementById("img").addEventListener("mouseout",function() {     // 4th event listener "mouseout" to return pic to size
+            document.getElementById("img").addEventListener("mouseout",function() {     // 2nd event listener "mouseout" to return pic to size
                 document.getElementById("img").setAttribute("height","100px");
                 document.getElementById("img").setAttribute("width","100px");
             })
         })
     } 
-        return todoList
+    return todoList
 }
 
 function getAllTodos() {                                       
@@ -47,59 +46,56 @@ function getAllTodos() {
 
 getAllTodos()                                             
 
-form.addEventListener("submit", (e)=>{                    // 2nd event listener textbox "submit"             
-    for(let i = 0; i < TextBoxes.length; i++)
-    { 
-        if(i == 0)
+form.addEventListener("submit", (e)=> {                               
+    for(let i = 0; i < textBoxes.length; i++) { 
+        if (i == 0)
         {
-            ToDo.id = TextBoxes[i].value 
-            TextBoxes[i].value  = ""
+            todo.id = textBoxes[i].value 
+            textBoxes[i].value  = ""
         } 
         else if(i == 1)
         {
-            ToDo.title = TextBoxes[i].value 
-            TextBoxes[i].value  = ""
+            todo.title = textBoxes[i].value 
+            textBoxes[i].value  = ""
         } 
         else if(i == 2)
         {
-            ToDo.category = TextBoxes[i].value 
-            TextBoxes[i].value  = ""
+            todo.category = textBoxes[i].value 
+            textBoxes[i].value  = ""
         } 
         else if(i == 3)
         {
-            ToDo.imageURL = TextBoxes[i].value 
-            TextBoxes[i].value  = ""
+            todo.imageURL = textBoxes[i].value 
+            textBoxes[i].value  = ""
         } 
         else if(i == 4)
         {
-            ToDo.notes = TextBoxes[i].value 
-            TextBoxes[i].value  = ""
+            todo.notes = textBoxes[i].value 
+            textBoxes[i].value  = ""
         }  
     }  
 
-    let str = "";                                           // creates a string using todo object 
-        str += "<br>ID: "+ToDo.id+"<br><br>";
-        str += "\nTitle: "+ToDo.title+"<br><br>";
-        str += "\nCategory: "+ToDo.category+"<br><br>";
-        str += "\nNotes: "+ToDo.notes+"<br><br>";
+    let addTodo = "";                                        // creates a string using todo object 
+        addTodo += "<br>ID: "+todo.id+"<br><br>";
+        addTodo += "Title: "+todo.title+"<br><br>";
+        addTodo += "Category: "+todo.category+"<br><br>";
+        addTodo += "Notes: "+todo.notes+"<br><br>";             
         let img = document.createElement("img");
-        img.src = ToDo.imageURL;
-        img.setAttribute("height","100px");
-        img.setAttribute("width","100px");
-        todos.innerHTML += str+"<br><br><br>";
+        img.src = todo.imageURL;
+        img.setAttribute("height","200px");
+        img.setAttribute("width","200px");
+        todos.innerHTML += addTodo+"<br><br><br>";
         todos.appendChild(img)                              // takes element and adds to div
         e.preventDefault()
 })   
 
-function GetTextBoxes()
-{ 
-    for(let i = 0; i < TextBoxes.length; i++)
-    { 
-        TextBoxes[i].addEventListener("mouseover", function() {     // 3rd event listener "mouseover"
-            text = TextBoxes[i].value 
-            TextBoxes[i].value  = ""
+function getTextBoxes() { 
+    for(let i = 0; i < textBoxes.length; i++) { 
+        textBoxes[i].addEventListener("", function() {     // 3rd event listener "mouseover"
+            text = textBoxes[i].value 
+            textBoxes[i].value  = ""
         })
     }
 }
 
-GetTextBoxes()
+getTextBoxes()
